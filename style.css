@@ -1,0 +1,95 @@
+h1 {
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 110%;
+  text-align: left;
+  font-size: 60px;
+  padding: 20% 0px 20% 30%;
+}
+
+#headerImage {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#resumeImage {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 40%;
+  padding-bottom: 20%;
+}
+
+body {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  img, div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h3 {
+    padding: 20% 0px 20% 7%;
+  }
+
+  #resumeImage {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 44px;
+  }
+
+  #resumeImage {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 25px;
+    padding: 4%;
+  }
+
+  #resumeImage {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h3 {
+    font-size: 22px;
+    padding: 4%;
+  }
+
+  #resumeImage {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h3 {
+    font-size: 19px;
+    padding: 4%;
+  }
+
+  #resumeImage {
+    width: 95%;
+  }
+}
