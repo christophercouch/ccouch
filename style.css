@@ -59,15 +59,28 @@ body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 1269px) {
+  h3 {
+    padding-top: 30%;
+    padding-bottom: 40%;
+    font-size: 48px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   h3 {
-    padding: 20% 0px 20% 7%;
+    padding: 40% 0px 40% 7%;
+    font-size: 47px;
   }
 }
 
 @media screen and (max-width: 768px) {
   h3 {
-    font-size: 44px;
+    padding: 80% 3%;
+    font-size: 37px;
+  }
+  #resumeDiv {
+    padding-bottom: 100%;
   }
 }
 
@@ -77,28 +90,28 @@ body {
   }
 
   h3 {
-    font-size: 36px;
-    padding: 4%;
+    font-size: 25px;
+    padding: 100% 4%;
   }
 }
 
 @media screen and (max-width: 425px) {
   h3 {
-    font-size: 25px;
-    padding: 4%;
+    font-size: 22px;
+    padding: 100% 4%;
   }
 }
 
 @media screen and (max-width: 375px) {
   h3 {
-    font-size: 22px;
-    padding: 4%;
+    font-size: 19px;
+    padding: 100% 4%;
   }
 }
 
 @media screen and (max-width: 320px) {
   h3 {
     font-size: 19px;
-    padding: 4%;
+    padding: 100% 4%;
   }
 }
