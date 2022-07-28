@@ -21,12 +21,36 @@ h3 {
   padding: 20% 0px 30% 30%;
 }
 
-#headerImage {
+#footerImage, .main-header {
   padding: 0;
   display: block;
   margin: 0 auto;
   max-height: 100%;
   max-width: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+#footerImage {
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#footerImage {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+}
+
+.main-header {
+  background: linear-gradient(rgba(255, 255, 255, 1), transparent),
+              linear-gradient(0deg, rgba(255, 255, 255, 1), transparent),
+              url(../images/bodybackground.jpeg) no-repeat center;
 }
 
 #socialMedia {
