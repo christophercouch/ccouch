@@ -9,6 +9,6 @@ function getAge(dateString) {
   return age;
 }
 
-let currentAge = ('' + getAge("1996/08/03"));
+let currentAge = ('' + getAge("1900/01/01"));
 
 document.getElementById("age").innerHTML = currentAge;
